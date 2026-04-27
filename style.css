@@ -56,7 +56,7 @@
       135deg,
       rgba(10,4,4,0.88) 0%,
       rgba(10,4,4,0.82) 40%,
-      rgba(20,8,8,0.20) 75%,
+      rgba(20,8,8,0.06) 75%,
       rgba(10,4,4,0.80) 100%
     );
     pointer-events: none;
@@ -85,21 +85,9 @@
     line-height: 1.65; margin-bottom: 48px; max-width: 460px;
   }
   .hero-btns { display: flex; gap: 16px; flex-wrap: wrap; }
-  .hero-deco {
-    position: absolute; right: 0; top: 0; bottom: 0; width: 45%;
-    display: flex; align-items: center; justify-content: center;
-    overflow: hidden;
-  }
-  .hero-deco-circle {
-    width: 500px; height: 500px; border-radius: 50%;
-    background: radial-gradient(circle, rgba(204,18,18,0.12) 0%, transparent 70%);
-    position: absolute;
-  }
-  .hero-deco-ring {
-    width: 320px; height: 320px; border-radius: 50%;
-    border: 1px solid rgba(204,18,18,0.2);
-    position: absolute;
-  }
+  .hero-deco { display: none; }
+  .hero-deco-circle { display: none; }
+  .hero-deco-ring { display: none; }
 
   /* ── BUTTONS ── */
   .btn {
